@@ -110,13 +110,7 @@ export default function AboutSection() {
                 sizes="(max-width: 1024px) 100vw, 42vw"
                 className="object-cover hover:scale-105 transition-transform duration-500"
               />
-              <span className="font-sans text-xs uppercase tracking-widest text-neutral-500 mb-3 relative z-10">
-                Visual Placeholder
-              </span>
-              <span className="text-xl italic text-neutral-600 text-center px-4 relative z-10">
-                [ Insert Third Mumbai <br />
-                Landscape ]
-              </span>
+      
             </div>
           </div>
         </div>

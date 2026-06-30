@@ -147,7 +147,7 @@ export default function Navbar() {
               <span className="text-xs md:text-sm font-sans tracking-widest text-neutral-500">
                 / {item.num} /
               </span>
-              <span className="text-5xl md:text-7xl lg:text-8xl font-serif font-normal tracking-tight group-hover:italic transition-all duration-300">
+              <span className="text-4xl md:text-7xl lg:text-8xl font-serif font-normal tracking-tight group-hover:italic transition-all duration-300">
                 {item.name}
               </span>
             </Link>

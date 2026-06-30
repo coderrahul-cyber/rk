@@ -18,7 +18,7 @@ const HeroContent = forwardRef<HTMLDivElement, HeroContentProps>(
     return (
       <>
         {/* 1. MAP BACKGROUND LAYER (Mobile: Behind Text | Desktop: Right Column) */}
-        <div className="col-start-1 row-start-1 lg:col-start-8 lg:col-span-6 w-full h-[78vh] lg:h-[80vh] flex items-center justify-center relative z-0">
+        <div className="col-start-1 row-start-1 lg:col-start-8 lg:col-span-6 w-full h-[75dvh] lg:h-[80vh] flex items-center justify-center relative z-0">
           <div
             ref={mapRef} suppressHydrationWarning
             className="w-full h-full rounded-2xl overflow-hidden bg-neutral-300/50 relative border border-neutral-400/30 shadow-lg"
@@ -42,7 +42,7 @@ const HeroContent = forwardRef<HTMLDivElement, HeroContentProps>(
         {/* 2. PURE TYPOGRAPHY (Zero boxed background styling) */}
         <div
           ref={contentRef} suppressHydrationWarning
-          className="col-start-1 row-start-1 lg:col-start-1 lg:col-span-6 flex flex-col space-y-6 z-10 px-4 md:px-0 py-8 lg:py-0 pointer-events-none"
+          className="col-start-1 row-start-1 lg:col-start-1 lg:col-span-6 flex flex-col space-y-2 md:space-y-6 z-10 px-4 md:px-0 py-8 lg:py-0 pointer-events-none"
         >
           <div className="pointer-events-auto">
             <span className="font-sans inline-block border border-neutral-400/80 rounded-full px-4 py-1.5 text-xs tracking-widest uppercase text-neutral-700 bg-[#E5E1D8]/60 lg:bg-transparent backdrop-blur-sm lg:backdrop-blur-none">

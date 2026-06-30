@@ -119,7 +119,7 @@ export default function Footer() {
   return (
     <footer
       ref={footerRef}
-      className="relative w-full bg-[#E5E1D8] text-[#1A1A1A] pt-10 md:pt-20 pb-10 overflow-hidden md:min-h-[70vh] min-h-[80vh] flex flex-col justify-between z-10"
+      className="relative w-full bg-[#E5E1D8] text-[#1A1A1A] pt-10 md:pt-20 pb-10 overflow-hidden md:min-h-[70vh] min-h-[85dvh] flex flex-col justify-between z-10"
     >
       {/* =========================================
           TOP LAYER: Content & Links (z-30)

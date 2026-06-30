@@ -57,7 +57,7 @@ export default function HeroSection() {
     >
       <RevealCurtain ref={overlayRef}  logoRef={logoRef} />
 
-      <main  className="w-full max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 items-center gap-8 lg:gap-16 px-2 md:px-12 xl:px-20 pt-20 pb-12 relative z-10">
+      <main  className="w-full max-w-[1600px] mx-auto grid grid-cols-1 lg:grid-cols-12 items-center gap-8 lg:gap-16 px-2 md:px-12 xl:px-20 pt-10 md:pt-20 pb-12 relative z-10">
         <HeroContent ref={contentRef} mapRef={mapRef} />
       </main>
     </div>

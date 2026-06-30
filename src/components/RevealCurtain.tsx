@@ -16,7 +16,7 @@ const RevealCurtain = forwardRef<HTMLDivElement, { logoRef: React.Ref<HTMLDivEle
       >
         <div
           ref={logoRef} 
-          className="text-white text-3xl font-light tracking-widest italic select-none"
+          className="text-white text-xl md:text-3xl font-light tracking-widest italic select-none"
         >
           RK Greenfield Ventures
         </div>
