@@ -145,7 +145,7 @@ export default function InvestmentSection() {
   return (
     <section
       ref={sectionRef}
-      className="min-h-screen bg-[#E5E1D8] text-[#E5E1D8] py-32 px-6 md:px-12 xl:px-20 font-serif overflow-hidden relative z-20"
+      className="min-h-screen bg-[#E5E1D8] text-[#E5E1D8] py-10 md:py-16 px-6 md:px-12 xl:px-20 font-serif overflow-hidden relative z-20"
     >
       <div className="max-w-[1600px] mx-auto">
         {/* --- TOP GRID: Text & Image --- */}
@@ -205,7 +205,7 @@ export default function InvestmentSection() {
         {/* --- MIDDLE GRID: Architectural Cards --- */}
         <div
           ref={cardsContainerRef}
-          className="grid -mt-10 md:mt-0 grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-32 perspective-1000"
+          className="grid -mt-10 md:mt-0 grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-10 md:mb-10 perspective-1000"
         >
           {cards.map((card) => (
             <InvestmentCard

@@ -21,7 +21,7 @@ type ConnectivityStripProps = {
 const ConnectivityStrip = forwardRef<HTMLDivElement, ConnectivityStripProps>(
   ({ items }, ref) => {
     return (
-      <div className="border-t border-white/20 pt-16 flex flex-col items-center">
+      <div className="border-t border-white/20 pt-10  flex flex-col items-center">
         <div className="font-sans inline-block border border-[#E5E1D8]/30 rounded-full px-6 py-2 text-xs tracking-widest uppercase mb-12">
           Prime Connectivity Benefits
         </div>
